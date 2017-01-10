@@ -22,4 +22,9 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         FileDialog.ShowDialog()
     End Sub
+
+    Public Sub SearchAFile(Search As String)
+        Filetext.Text = Search
+        Button2.PerformClick()
+    End Sub
 End Class
