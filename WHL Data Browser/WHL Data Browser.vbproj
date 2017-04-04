@@ -36,7 +36,7 @@
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>X:\IT\Remote Debugs\Databrowser\</OutputPath>
     <DocumentationFile>WHL Data Browser.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
@@ -63,16 +63,22 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>9DA1C8B0F115792258A76BC3345E030A3456029E</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>BC21427865220AE1A01BDD8986B54E790480BF9A</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>WHL Data Browser_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>SPC.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SPC.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -145,6 +151,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="SPC.pfx" />
     <None Include="WHL Data Browser_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
