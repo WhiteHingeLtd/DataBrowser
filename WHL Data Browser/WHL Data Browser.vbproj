@@ -152,7 +152,6 @@
     </None>
     <None Include="App.config" />
     <None Include="SPC.pfx" />
-    <None Include="WHL Data Browser_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Framework\Framework\Framework.vbproj">
